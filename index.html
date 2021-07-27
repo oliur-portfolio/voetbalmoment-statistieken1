@@ -1,0 +1,1486 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- <meta name="robots" content="nofollow"> -->
+
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png" />
+
+        <!-- Main Template Styles -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
+
+        <title>Voetbalmoment.nl</title>
+        <meta name="description" content="#" />
+        <meta name="keywords" content="#" />
+        <link rel="canonical" href="#" />
+    </head>
+    <body>
+        <div class="preloader"></div>
+
+        <!-- Header Area -->
+        <div class="header-container">
+            <header class="site-header header-one site-header__header-three">
+                <div class="topbar-one thm-black-bg">
+                    <div class="container">
+                        <div class="topbar-one__left">
+                            <p class="topbar-one__text">Welcome to Voetbalmoment.nl <a href="#">Get Started</a></p>
+                        </div>
+                        <div class="topbar-one__right">
+                            <div class="topbar-one__social">
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa fa-youtube-play"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <nav class="navbar navbar-expand-lg navbar-light header-navigation stricky">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="logo-box clearfix">
+                            <a class="navbar-brand" href="index.php">
+                                <img src="assets/images/resources/logo.png" class="main-logo img-fluid" alt="Awesome Image" />
+                            </a>
+                            <button class="menu-toggler" data-toggle="collapse" data-target="#collapsibleNavbar">
+                                <span class="fa fa-bars"></span>
+                            </button>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="main-navigation collapse navbar-collapse float-right" id="collapsibleNavbar">
+                            <ul class="navigation-box">
+                                <li class="current"><a href="/">Nieuws</a></li>
+                                <li><a href="competities.php">Competities</a></li>
+                                <li><a href="livescore.php">Live Score</a></li>
+                                <li><a href="statistieken.php">Statistieken</a></li>
+                                <li><a href="aan-de-zijlijn.php">Aan de lijn</a></li>
+                                <li><a href="videos.php">Video’s</a></li>
+                                <li><a href="contactus.php">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="right-side-box">
+                            <div class="search-wrapper">
+                                <div class="input-holder">
+                                    <input type="text" class="search-input" placeholder="Type to search" />
+                                    <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+                                </div>
+                                <span class="close" onclick="searchToggle(this, event);"></span>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+            <!-- Inner Banner Area -->
+            <div class="inner-banner">
+                <div class="container flex-column-reverse d-flex justify-content-center align-items-center">
+                    <div class="inner-banner-container">
+                        <ul class="thm-breadcrumb">
+                            <li class="thm-breadcrumb__item">
+                                <a href="#" class="thm-breadcrumb__link">Home</a>
+                            </li>
+                            <li class="thm-breadcrumb__item current">
+                                <a href="#" class="thm-breadcrumb__link">Statistieken</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Inner Banner Area -->
+        </div>
+        <!-- Header Area -->
+
+        <!-- Main Content Area -->
+        <main>
+            <!-- Statistieken Competities Area  -->
+            <section class="service-three statistieken-competities bg-white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12 match-tables">
+                            <!-- Competities Logo -->
+                            <div class="round-wrap mobile-fixx">
+                                <ul class="nav nav-tabs back-fix" role="tablist" style="border-bottom: none">
+                                    <li class="nav-item">
+                                        <a href="#"
+                                            ><h5 style="color: #000">
+                                                Alle <br />
+                                                Competities
+                                            </h5></a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#tabs1" role="tab"> <img src="assets/images/resources/cmt_1.png" alt="Awesome Image" /></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tabs2" role="tab"> <img src="assets/images/resources/cmt_2.png" alt="Awesome Image" /></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tabs3" role="tab"> <img src="assets/images/resources/cmt_3.png" alt="Awesome Image" /></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tabs4" role="tab"> <img src="assets/images/resources/cmt_4.png" alt="Awesome Image" /></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tabs5" role="tab"> <img src="assets/images/resources/cmt_1.png" alt="Awesome Image" /></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tabs6" role="tab"> <img src="assets/images/resources/cmt_2.png" alt="Awesome Image" /></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tabs7" role="tab"> <img src="assets/images/resources/cmt_3.png" alt="Awesome Image" /></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tabs8" role="tab"> <img src="assets/images/resources/cmt_4.png" alt="Awesome Image" /></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tabs9" role="tab"> <img src="assets/images/resources/cmt_1.png" alt="Awesome Image" /></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tabs10" role="tab"> <img src="assets/images/resources/cmt_2.png" alt="Awesome Image" /></a>
+                                    </li>
+                                </ul>
+                                <!-- Tab panes -->
+                            </div>
+                            <!-- Competities Logo -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Statistieken Competities Area  -->
+
+            <!-- Stand Eredivisie Area -->
+            <section class="sts stand-eredivisie service-three bg-change">
+                <div class="container">
+                    <div class="title-style text-center">
+                        <h2>Stand Eredivisie</h2>
+                        <span class="line2px"></span>
+                    </div>
+
+                    <!-- Select year section -->
+                    <div class="sdv-fx-selects">
+                        <select>
+                            <option value="2019-2020" selected="">2019/2020</option>
+                            <option value="2018-2019">2018/2019</option>
+                            <option value="2017-2018">2017/2018</option>
+                            <option value="2016-2017">2016/2017</option>
+                            <option value="2015-2016">2015/2016</option>
+                            <option value="2014-2015">2014/2015</option>
+                            <option value="2013-2014">2013/2014</option>
+                            <option value="2012-2013">2012/2013</option>
+                            <option value="2011-2012">2011/2012</option>
+                            <option value="2010-2011">2010/2011</option>
+                            <option value="2009-2010">2009/2010</option>
+                            <option value="2008-2009">2008/2009</option>
+                            <option value="2007-2008">2007/2008</option>
+                            <option value="2006-2007">2006/2007</option>
+                            <option value="2005-2006">2005/2006</option>
+                            <option value="2004-2005">2004/2005</option>
+                            <option value="1989-1990">1989/1990</option>
+                        </select>
+                    </div>
+
+                    <!-- year data -->
+                    <div class="yeardata scroll">
+                        <table id="stats-stand">
+                            <thead class="teehead">
+                                <tr>
+                                    <td><i class="fa fa-circle" style="color: #e1e1e1"></i></td>
+                                    <td>#</td>
+                                    <td>Club</td>
+                                    <td>GS</td>
+                                    <td>W</td>
+                                    <td>G</td>
+                                    <td>V</td>
+                                    <td>DS</td>
+                                    <td>GA</td>
+                                    <td>P</td>
+                                    <td>Laatste 5 wedstrijden</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="">
+                                    <td><i class="fa fa-circle" style="color: #3b3bf1"></i></td>
+                                    <td>1.</td>
+                                    <td>
+                                        <a href="/team/629/ajax/2019-2020"> <img src="assets/images/teamlogo/Ajax.png" alt="Awesome Image" /> <span>Ajax</span> </a>
+                                    </td>
+                                    <td>25</td>
+                                    <td>18</td>
+                                    <td>2</td>
+                                    <td>5</td>
+                                    <td>68-23</td>
+                                    <td>45</td>
+                                    <td>56</td>
+                                    <td>
+                                        <span class="W"></span>
+                                        <span class="W"></span>
+                                        <span class="L"></span>
+                                        <span class="L"></span>
+                                        <span class="W"></span>
+                                    </td>
+                                </tr>
+                                <tr class="">
+                                    <td><i class="fa fa-circle" style="color: #3b3bf1"></i></td>
+                                    <td>2.</td>
+                                    <td>
+                                        <a href="/team/61/az-alkmaar/2019-2020"> <img src="assets/images/teamlogo/AZ Alkmaar.png" alt="Awesome Image" /> <span>AZ Alkmaar</span> </a>
+                                    </td>
+                                    <td>25</td>
+                                    <td>18</td>
+                                    <td>2</td>
+                                    <td>5</td>
+                                    <td>54-17</td>
+                                    <td>37</td>
+                                    <td>56</td>
+                                    <td>
+                                        <span class="W"></span>
+                                        <span class="L"></span>
+                                        <span class="W"></span>
+                                        <span class="W"></span>
+                                        <span class="W"></span>
+                                    </td>
+                                </tr>
+                                <tr class="">
+                                    <td><i class="fa fa-circle" style="color: #d5cff7"></i></td>
+
+                                    <td>3.</td>
+                                    <td>
+                                        <a href="/team/73/feyenoord/2019-2020"> <img src="assets/images/teamlogo/Feyenoord.png" /> <span>Feyenoord</span> </a>
+                                    </td>
+                                    <td>25</td>
+                                    <td>14</td>
+                                    <td>8</td>
+                                    <td>3</td>
+                                    <td>50-35</td>
+                                    <td>15</td>
+                                    <td>50</td>
+                                    <td>
+                                        <span class="W"></span>
+                                        <span class="W"></span>
+                                        <span class="W"></span>
+                                        <span class="D"></span>
+                                        <span class="W"></span>
+                                    </td>
+                                </tr>
+                                <tr class="">
+                                    <td><i class="fa fa-circle" style="color: #acacec"></i></td>
+                                    <td>4.</td>
+                                    <td>
+                                        <a href="/team/682/psv/2019-2020"> <img src="assets/images/teamlogo/PSV.png" alt="Awesome Image" /> <span>PSV</span> </a>
+                                    </td>
+                                    <td>26</td>
+                                    <td>14</td>
+                                    <td>7</td>
+                                    <td>5</td>
+                                    <td>54-28</td>
+                                    <td>26</td>
+                                    <td>49</td>
+                                    <td>
+                                        <span class="W"></span>
+                                        <span class="W"></span>
+                                        <span class="W"></span>
+                                        <span class="D"></span>
+                                        <span class="W"></span>
+                                    </td>
+                                </tr>
+                                <tr class="">
+                                    <td><i class="fa fa-circle" style="color: #acacec"></i></td>
+
+                                    <td>5.</td>
+                                    <td>
+                                        <a href="/team/669/willem-ii/2019-2020"> <img src="assets/images/teamlogo/Willem II.png" alt="Awesome Image" /> <span>Willem II</span> </a>
+                                    </td>
+                                    <td>26</td>
+                                    <td>13</td>
+                                    <td>5</td>
+                                    <td>8</td>
+                                    <td>37-34</td>
+                                    <td>3</td>
+                                    <td>44</td>
+                                    <td>
+                                        <span class="L"></span>
+                                        <span class="D"></span>
+                                        <span class="L"></span>
+                                        <span class="W"></span>
+                                        <span class="L"></span>
+                                    </td>
+                                </tr>
+                                <tr class="">
+                                    <td><i class="fa fa-circle" style="color: #acacec"></i></td>
+
+                                    <td>6.</td>
+                                    <td>
+                                        <a href="/team/750/fc-utrecht/2019-2020"> <img src="assets/images/teamlogo/FC Utrecht.png" alt="Awesome Image" /> <span>FC Utrecht</span> </a>
+                                    </td>
+                                    <td>25</td>
+                                    <td>12</td>
+                                    <td>5</td>
+                                    <td>8</td>
+                                    <td>50-34</td>
+                                    <td>16</td>
+                                    <td>41</td>
+                                    <td>
+                                        <span class="D"></span>
+                                        <span class="D"></span>
+                                        <span class="W"></span>
+                                        <span class="L"></span>
+                                        <span class="W"></span>
+                                    </td>
+                                </tr>
+                                <tr class="">
+                                    <td><i class="fa fa-circle" style="color: #acacec"></i></td>
+
+                                    <td>7.</td>
+                                    <td>
+                                        <a href="/team/94/vitesse/2019-2020"> <img src="assets/images/teamlogo/Vitesse.png" alt="Awesome Image" /> <span>Vitesse</span> </a>
+                                    </td>
+                                    <td>26</td>
+                                    <td>12</td>
+                                    <td>5</td>
+                                    <td>9</td>
+                                    <td>45-35</td>
+                                    <td>10</td>
+                                    <td>41</td>
+                                    <td>
+                                        <span class="L"></span>
+                                        <span class="W"></span>
+                                        <span class="L"></span>
+                                        <span class="L"></span>
+                                        <span class="W"></span>
+                                    </td>
+                                </tr>
+                                <tr class="">
+                                    <td><i class="fa fa-circle" style="color: #fff"></i></td>
+
+                                    <td>8.</td>
+                                    <td>
+                                        <a href="/team/1403/heracles/2019-2020"> <img src="assets/images/teamlogo/Heracles.png" alt="Awesome Image" /> <span>Heracles</span> </a>
+                                    </td>
+                                    <td>26</td>
+                                    <td>10</td>
+                                    <td>6</td>
+                                    <td>10</td>
+                                    <td>40-34</td>
+                                    <td>6</td>
+                                    <td>36</td>
+                                    <td>
+                                        <span class="W"></span>
+                                        <span class="L"></span>
+                                        <span class="W"></span>
+                                        <span class="D"></span>
+                                        <span class="W"></span>
+                                    </td>
+                                </tr>
+                                <tr class="">
+                                    <td><i class="fa fa-circle" style="color: #fff"></i></td>
+                                    <td>9.</td>
+                                    <td>
+                                        <a href="/team/2345/fc-groningen/2019-2020"> <img src="assets/images/teamlogo/FC Groningen.png" alt="Awesome Image" /> <span>FC Groningen</span> </a>
+                                    </td>
+                                    <td>26</td>
+                                    <td>10</td>
+                                    <td>5</td>
+                                    <td>11</td>
+                                    <td>27-26</td>
+                                    <td>1</td>
+                                    <td>35</td>
+                                    <td>
+                                        <span class="W"></span>
+                                        <span class="W"></span>
+                                        <span class="L"></span>
+                                        <span class="L"></span>
+                                        <span class="L"></span>
+                                    </td>
+                                </tr>
+                                <tr class="">
+                                    <td><i class="fa fa-circle" style="color: #fff"></i></td>
+                                    <td>10.</td>
+                                    <td>
+                                        <a href="/team/1053/sc-heerenveen/2019-2020"> <img src="assets/images/teamlogo/SC Heerenveen.png" alt="Awesome Image" /> <span>SC Heerenveen</span> </a>
+                                    </td>
+                                    <td>26</td>
+                                    <td>8</td>
+                                    <td>9</td>
+                                    <td>9</td>
+                                    <td>41-41</td>
+                                    <td>-0</td>
+                                    <td>33</td>
+                                    <td>
+                                        <span class="D"></span>
+                                        <span class="L"></span>
+                                        <span class="D"></span>
+                                        <span class="W"></span>
+                                        <span class="L"></span>
+                                    </td>
+                                </tr>
+                                <tr class="">
+                                    <td><i class="fa fa-circle" style="color: #fff"></i></td>
+                                    <td>11.</td>
+                                    <td>
+                                        <a href="/team/919/sparta-rotterdam/2019-2020"> <img src="assets/images/teamlogo/Sparta Rotterdam.png" alt="Awesome Image" /> <span>Sparta Rotterdam</span> </a>
+                                    </td>
+                                    <td>26</td>
+                                    <td>9</td>
+                                    <td>6</td>
+                                    <td>11</td>
+                                    <td>41-45</td>
+                                    <td>-4</td>
+                                    <td>33</td>
+                                    <td>
+                                        <span class="W"></span>
+                                        <span class="L"></span>
+                                        <span class="W"></span>
+                                        <span class="W"></span>
+                                        <span class="L"></span>
+                                    </td>
+                                </tr>
+                                <tr class="">
+                                    <td><i class="fa fa-circle" style="color: #fff"></i></td>
+                                    <td>12.</td>
+                                    <td>
+                                        <a href="/team/2475/fc-emmen/2019-2020"> <img src="assets/images/teamlogo/FC Emmen.png" alt="Awesome Image" /> <span>FC Emmen</span> </a>
+                                    </td>
+                                    <td>26</td>
+                                    <td>9</td>
+                                    <td>5</td>
+                                    <td>12</td>
+                                    <td>32-45</td>
+                                    <td>-13</td>
+                                    <td>32</td>
+                                    <td>
+                                        <span class="W"></span>
+                                        <span class="D"></span>
+                                        <span class="W"></span>
+                                        <span class="L"></span>
+                                        <span class="W"></span>
+                                    </td>
+                                </tr>
+                                <tr class="">
+                                    <td><i class="fa fa-circle" style="color: #fff"></i></td>
+                                    <td>13.</td>
+                                    <td>
+                                        <a href="/team/2379/vvv-venlo/2019-2020"> <img src="assets/images/teamlogo/VVV-Venlo.png" alt="Awesome Image" /> <span>VVV-Venlo</span> </a>
+                                    </td>
+                                    <td>26</td>
+                                    <td>8</td>
+                                    <td>4</td>
+                                    <td>14</td>
+                                    <td>24-51</td>
+                                    <td>-27</td>
+                                    <td>28</td>
+                                    <td>
+                                        <span class="D"></span>
+                                        <span class="W"></span>
+                                        <span class="W"></span>
+                                        <span class="D"></span>
+                                        <span class="L"></span>
+                                    </td>
+                                </tr>
+                                <tr class="">
+                                    <td><i class="fa fa-circle" style="color: #fff"></i></td>
+                                    <td>14.</td>
+                                    <td>
+                                        <a href="/team/593/fc-twente/2019-2020"> <img src="assets/images/teamlogo/FC Twente.png" alt="Awesome Image" /> <span>FC Twente</span> </a>
+                                    </td>
+                                    <td>26</td>
+                                    <td>7</td>
+                                    <td>6</td>
+                                    <td>13</td>
+                                    <td>34-46</td>
+                                    <td>-12</td>
+                                    <td>27</td>
+                                    <td>
+                                        <span class="L"></span>
+                                        <span class="W"></span>
+                                        <span class="L"></span>
+                                        <span class="L"></span>
+                                        <span class="L"></span>
+                                    </td>
+                                </tr>
+                                <tr class="">
+                                    <td><i class="fa fa-circle" style="color: #fff"></i></td>
+                                    <td>15.</td>
+                                    <td>
+                                        <a href="/team/1016/pec-zwolle/2019-2020"> <img src="assets/images/teamlogo/PEC Zwolle.png" alt="Awesome Image" /> <span>PEC Zwolle</span> </a>
+                                    </td>
+                                    <td>26</td>
+                                    <td>7</td>
+                                    <td>5</td>
+                                    <td>14</td>
+                                    <td>37-55</td>
+                                    <td>-18</td>
+                                    <td>26</td>
+                                    <td>
+                                        <span class="D"></span>
+                                        <span class="L"></span>
+                                        <span class="L"></span>
+                                        <span class="W"></span>
+                                        <span class="D"></span>
+                                    </td>
+                                </tr>
+                                <tr class="">
+                                    <td><i class="fa fa-circle" style="color: #ea3a3a"></i></td>
+
+                                    <td>16.</td>
+                                    <td>
+                                        <a href="/team/1459/fortuna-sittard/2019-2020"> <img src="assets/images/teamlogo/Fortuna Sittard.png" alt="Awesome Image" /> <span>Fortuna Sittard</span> </a>
+                                    </td>
+                                    <td>26</td>
+                                    <td>6</td>
+                                    <td>8</td>
+                                    <td>12</td>
+                                    <td>29-52</td>
+                                    <td>-23</td>
+                                    <td>26</td>
+                                    <td>
+                                        <span class="L"></span>
+                                        <span class="D"></span>
+                                        <span class="L"></span>
+                                        <span class="D"></span>
+                                        <span class="D"></span>
+                                    </td>
+                                </tr>
+                                <tr class="">
+                                    <td><i class="fa fa-circle" style="color: #da0707"></i></td>
+
+                                    <td>17.</td>
+                                    <td>
+                                        <a href="/team/1128/ado-den-haag/2019-2020"> <img src="assets/images/teamlogo/ADO Den Haag.png" alt="Awesome Image" /> <span>ADO Den Haag</span> </a>
+                                    </td>
+                                    <td>26</td>
+                                    <td>4</td>
+                                    <td>7</td>
+                                    <td>15</td>
+                                    <td>25-54</td>
+                                    <td>-29</td>
+                                    <td>19</td>
+                                    <td>
+                                        <span class="L"></span>
+                                        <span class="L"></span>
+                                        <span class="D"></span>
+                                        <span class="D"></span>
+                                        <span class="L"></span>
+                                    </td>
+                                </tr>
+                                <tr class="">
+                                    <td><i class="fa fa-circle" style="color: #da0707"></i></td>
+
+                                    <td>18.</td>
+                                    <td>
+                                        <a href="/team/814/rkc-waalwijk/2019-2020"> <img src="assets/images/teamlogo/RKC Waalwijk.png" alt="Awesome Image" /> <span>RKC Waalwijk</span> </a>
+                                    </td>
+                                    <td>26</td>
+                                    <td>4</td>
+                                    <td>3</td>
+                                    <td>19</td>
+                                    <td>27-60</td>
+                                    <td>-33</td>
+                                    <td>15</td>
+                                    <td>
+                                        <span class="D"></span>
+                                        <span class="L"></span>
+                                        <span class="L"></span>
+                                        <span class="W"></span>
+                                        <span class="L"></span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </section>
+            <!-- Stand Eredivisie Area -->
+
+            <!-- Programma / Uitslagen Area -->
+            <section class="service-three bg-white uitslagen">
+                <div class="container">
+                    <div class="title-style text-center">
+                        <h2>Programma / Uitslagen</h2>
+                        <span class="line2px"></span>
+                    </div>
+
+                    <div class="row">
+                        <div class="match-tables">
+                            <div class="round-wrap">
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#tabs1" role="tab">Round 1</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs2" role="tab"> Round 2</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs3" role="tab"> Round 3</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs4" role="tab"> Round 4</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs5" role="tab"> Round 5</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs6" role="tab"> Round 6</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs7" role="tab"> Round 7</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs8" role="tab"> Round 8</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs9" role="tab"> Round 9</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs10" role="tab"> Round 10</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs11" role="tab"> Round 11</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs12" role="tab"> Round 12</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs13" role="tab"> Round 13</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs14" role="tab"> Round 14</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs15" role="tab"> Round 15</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs16" role="tab"> Round 16</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs17" role="tab"> Round 17</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs18" role="tab"> Round 18</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs19" role="tab"> Round 19</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs20" role="tab"> Round 20</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs21" role="tab"> Round 21</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs22" role="tab"> Round 22</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs23" role="tab"> Round 23</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs24" role="tab"> Round 24</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs25" role="tab"> Round 25</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs26" role="tab"> Round 26</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs27" role="tab"> Round 27</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs28" role="tab"> Round 28</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs29" role="tab"> Round 29</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs30" role="tab"> Round 30</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs31" role="tab"> Round 31</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs32" role="tab"> Round 32</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs33" role="tab"> Round 33</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs34" role="tab"> Round 34</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs35" role="tab"> Round 35</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs36" role="tab"> Round 36</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs37" role="tab"> Round 37</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs38" role="tab"> Round 38</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs39" role="tab"> Round 39</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs40" role="tab"> Round 40</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs41" role="tab"> Round 41</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs42" role="tab"> Round 42</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs43" role="tab"> Round 43</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs44" role="tab"> Round 44</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs45" role="tab"> Round 45</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs46" role="tab"> Round 46</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs47" role="tab"> Round 47</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabs48" role="tab"> Round 48</a></li>
+                                </ul>
+                                <!-- Tab panes -->
+                            </div>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="tabs1" role="tabpanel">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="home-switch-button fix mobile-show">Programma/ Uitslagen</div>
+                                            <div class="comp-prog-stand-half prog">
+                                                <div class="sdv-wrap prog homepage">
+                                                    <div class="sdv-fx-wrap">
+                                                        <div class="sdv-fx-datehead">Vrijdag 02 augustus 2019</div>
+                                                        <div class="fx-row noborder">
+                                                            <a href="#"
+                                                                ><span
+                                                                    ><h6>PEC Zwolle</h6>
+                                                                    <img src="assets/images/teamlogo/PEC Zwolle.png" alt="Awesome Image" /></span
+                                                                ><span>1:3</span
+                                                                ><span
+                                                                    ><img src="assets/images/teamlogo/Willem II.png" alt="Awesome Image" />
+                                                                    <h6>Willem II</h6></span
+                                                                ></a
+                                                            >
+                                                        </div>
+                                                        <div class="sdv-fx-datehead">Zaterdag 03 augustus 2019</div>
+                                                        <div class="fx-row noborder">
+                                                            <a href="#"
+                                                                ><span
+                                                                    ><h6>Vitesse</h6>
+                                                                    <img src="assets/images/teamlogo/Vitesse.png" alt="Awesome Image" /></span
+                                                                ><span>2:2</span
+                                                                ><span
+                                                                    ><img src="assets/images/teamlogo/Ajax.png" alt="Awesome Image" />
+                                                                    <h6>Ajax</h6></span
+                                                                ></a
+                                                            >
+                                                        </div>
+                                                        <div class="fx-row">
+                                                            <a href="#"
+                                                                ><span
+                                                                    ><h6>FC Emmen</h6>
+                                                                    <img src="assets/images/teamlogo/FC Emmen.png" alt="Awesome Image" /></span
+                                                                ><span>0:1</span
+                                                                ><span
+                                                                    ><img src="assets/images/teamlogo/FC Groningen.png" alt="Awesome Image" />
+                                                                    <h6>FC Groningen</h6></span
+                                                                ></a
+                                                            >
+                                                        </div>
+                                                        <div class="fx-row">
+                                                            <a href="#"
+                                                                ><span
+                                                                    ><h6>VVV-Venlo</h6>
+                                                                    <img src="assets/images/teamlogo/VVV-Venlo.png" alt="Awesome Image" /></span
+                                                                ><span>3:1</span
+                                                                ><span
+                                                                    ><img src="assets/images/teamlogo/RKC Waalwijk.png" alt="Awesome Image" />
+                                                                    <h6>RKC Waalwijk</h6></span
+                                                                ></a
+                                                            >
+                                                        </div>
+                                                        <div class="fx-row">
+                                                            <a href="#"
+                                                                ><span
+                                                                    ><h6>FC Twente</h6>
+                                                                    <img src="assets/images/teamlogo/FC Twente.png" alt="Awesome Image" /></span
+                                                                ><span>1:1</span
+                                                                ><span
+                                                                    ><img src="assets/images/teamlogo/PSV.png" alt="Awesome Image" />
+                                                                    <h6>PSV</h6></span
+                                                                ></a
+                                                            >
+                                                        </div>
+                                                        <div class="sdv-fx-datehead">Zondag 04 augustus 2019</div>
+                                                        <div class="fx-row noborder">
+                                                            <a href="#"
+                                                                ><span
+                                                                    ><h6>Heracles</h6>
+                                                                    <img src="assets/images/teamlogo/Heracles.png" alt="Awesome Image" /></span
+                                                                ><span>0:4</span
+                                                                ><span
+                                                                    ><img src="assets/images/teamlogo/SC Heerenveen.png" alt="Awesome Image" />
+                                                                    <h6>SC Heerenveen</h6></span
+                                                                ></a
+                                                            >
+                                                        </div>
+                                                        <div class="fx-row">
+                                                            <a href="#"
+                                                                ><span
+                                                                    ><h6>Feyenoord</h6>
+                                                                    <img src="assets/images/teamlogo/Feyenoord.png" alt="Awesome Image" /></span
+                                                                ><span>2:2</span
+                                                                ><span
+                                                                    ><img src="assets/images/teamlogo/Sparta Rotterdam.png" alt="Awesome Image" />
+                                                                    <h6>Sparta Rotterdam</h6></span
+                                                                ></a
+                                                            >
+                                                        </div>
+                                                        <div class="fx-row">
+                                                            <a href="#"
+                                                                ><span
+                                                                    ><h6>ADO Den Haag</h6>
+                                                                    <img src="assets/images/teamlogo/ADO Den Haag.png" alt="Awesome Image" /></span
+                                                                ><span>2:4</span
+                                                                ><span
+                                                                    ><img src="assets/images/teamlogo/FC Utrecht.png" alt="Awesome Image" />
+                                                                    <h6>FC Utrecht</h6></span
+                                                                ></a
+                                                            >
+                                                        </div>
+                                                        <div class="fx-row">
+                                                            <a href="#"
+                                                                ><span
+                                                                    ><h6>AZ</h6>
+                                                                    <img src="assets/images/teamlogo/AZ.png" alt="Awesome Image" /></span
+                                                                ><span>4:0</span
+                                                                ><span
+                                                                    ><img src="assets/images/teamlogo/Fortuna Sittard.png" alt="Awesome Image" />
+                                                                    <h6>Fortuna Sittard</h6></span
+                                                                ></a
+                                                            >
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end tab 1 -->
+                                <div class="tab-pane" id="tabs2" role="tabpanel">
+                                    <p>Round 2</p>
+                                </div>
+                                <!-- end tab 2 -->
+                                <div class="tab-pane" id="tabs3" role="tabpanel">
+                                    <p>Round 3</p>
+                                </div>
+                                <!-- end tab 3 -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Programma / Uitslagen Area -->
+
+            <!-- Spelers Statistieken Area -->
+            <section class="tp-15 statskn spelers-statskn service-three bg-change">
+                <div class="container">
+                    <div class="title-style text-center">
+                        <h2>Spelers Statistieken</h2>
+                        <span class="line2px"></span>
+                    </div>
+
+                    <!-- Collapse Area -->
+                    <div class="collapse" id="collapseSpelers">
+                        <div class="row">
+                            <!-- Topscorers Mobile View Top Area -->
+                            <div class="tps col-lg-6 col-md-12">
+                                <!-- Responsive Top Collapse -->
+                                <div class="collapse" id="collapsetop">
+                                    <div class="home-switch-button stand mobile-hide text-center">Topscorers</div>
+                                    <div class="sdv-wrap">
+                                        <div class="sdv-fx-wrap goalscorers">
+                                            <div class="scorer-head scorer-head-top scorer-row">
+                                                <span>#</span>
+                                                <span>Naam</span>
+                                                <span>Club</span>
+                                                <span>GS</span>
+                                                <span>Goals</span>
+                                            </div>
+
+                                            <!-- First 10 Row Data -->
+                                            <div class="tps-row domestic">
+                                                <span>1.</span>
+                                                <span>
+                                                    <a href="#">S. Berghuis</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/Feyenoord.png" alt="Awesome Image" />Feyenoord </a>
+                                                </span>
+                                                <span>24</span>
+                                                <span>15</span>
+                                            </div>
+                                            <div class="tps-row domestic">
+                                                <span>2.</span>
+                                                <span>
+                                                    <a href="#">C. Dessers</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/Heracles.png" alt="Awesome Image" />Heracles </a>
+                                                </span>
+                                                <span>26</span>
+                                                <span>15</span>
+                                            </div>
+                                            <div class="tps-row domestic">
+                                                <span>3.</span>
+                                                <span>
+                                                    <a href="#">M. Boadu</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/AZ.png" alt="Awesome Image" />AZ </a>
+                                                </span>
+                                                <span>24</span>
+                                                <span>14</span>
+                                            </div>
+                                            <div class="tps-row domestic">
+                                                <span>4.</span>
+                                                <span>
+                                                    <a href="#">B. Linssen</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/Vitesse.png" alt="Awesome Image" />Vitesse </a>
+                                                </span>
+                                                <span>25</span>
+                                                <span>14</span>
+                                            </div>
+                                            <div class="tps-row domestic">
+                                                <span>5.</span>
+                                                <span>
+                                                    <a href="#">O. Idrissi</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/AZ.png" alt="Awesome Image" />AZ </a>
+                                                </span>
+                                                <span>25</span>
+                                                <span>13</span>
+                                            </div>
+                                            <div class="tps-row domestic">
+                                                <span>6.</span>
+                                                <span>
+                                                    <a href="#">Q. Promes</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/Ajax.png" alt="Awesome Image" />Ajax </a>
+                                                </span>
+                                                <span>20</span>
+                                                <span>12</span>
+                                            </div>
+                                            <div class="tps-row domestic">
+                                                <span>7.</span>
+                                                <span>
+                                                    <a href="#">T. Matavž</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/Vitesse.png" alt="Awesome Image" />Vitesse </a>
+                                                </span>
+                                                <span>25</span>
+                                                <span>12</span>
+                                            </div>
+                                            <div class="tps-row domestic">
+                                                <span>8.</span>
+                                                <span>
+                                                    <a href="#">D. Malen</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/PSV.png" alt="Awesome Image" />PSV </a>
+                                                </span>
+                                                <span>14</span>
+                                                <span>11</span>
+                                            </div>
+                                            <div class="tps-row domestic">
+                                                <span>9.</span>
+                                                <span>
+                                                    <a href="#">D. Tadić</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/Ajax.png" alt="Awesome Image" />Ajax </a>
+                                                </span>
+                                                <span>25</span>
+                                                <span>11</span>
+                                            </div>
+                                            <div class="tps-row domestic">
+                                                <span>10.</span>
+                                                <span>
+                                                    <a href="#">D. Tadić</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/FC Twente.png" alt="Awesome Image" />FC Twente </a>
+                                                </span>
+                                                <span>25</span>
+                                                <span>11</span>
+                                            </div>
+                                            <!-- First 10 Row Data -->
+
+                                            <!-- Last 10 Row Data -->
+                                            <div class="tps-row domestic">
+                                                <span>11.</span>
+                                                <span>
+                                                    <a href="#">S. Berghuis</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/Feyenoord.png" alt="Awesome Image" />Feyenoord </a>
+                                                </span>
+                                                <span>24</span>
+                                                <span>15</span>
+                                            </div>
+                                            <div class="tps-row domestic">
+                                                <span>12.</span>
+                                                <span>
+                                                    <a href="#">C. Dessers</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/Heracles.png" alt="Awesome Image" />Heracles </a>
+                                                </span>
+                                                <span>26</span>
+                                                <span>15</span>
+                                            </div>
+                                            <div class="tps-row domestic">
+                                                <span>13.</span>
+                                                <span>
+                                                    <a href="#">M. Boadu</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/AZ.png" alt="Awesome Image" />AZ </a>
+                                                </span>
+                                                <span>24</span>
+                                                <span>14</span>
+                                            </div>
+                                            <div class="tps-row domestic">
+                                                <span>14.</span>
+                                                <span>
+                                                    <a href="#">B. Linssen</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/Vitesse.png" alt="Awesome Image" />Vitesse </a>
+                                                </span>
+                                                <span>25</span>
+                                                <span>14</span>
+                                            </div>
+                                            <div class="tps-row domestic">
+                                                <span>15.</span>
+                                                <span>
+                                                    <a href="#">O. Idrissi</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/AZ.png" alt="Awesome Image" />AZ </a>
+                                                </span>
+                                                <span>25</span>
+                                                <span>13</span>
+                                            </div>
+                                            <div class="tps-row domestic">
+                                                <span>16.</span>
+                                                <span>
+                                                    <a href="#">Q. Promes</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/Ajax.png" alt="Awesome Image" />Ajax </a>
+                                                </span>
+                                                <span>20</span>
+                                                <span>12</span>
+                                            </div>
+                                            <div class="tps-row domestic">
+                                                <span>17.</span>
+                                                <span>
+                                                    <a href="#">T. Matavž</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/Vitesse.png" alt="Awesome Image" />Vitesse </a>
+                                                </span>
+                                                <span>25</span>
+                                                <span>12</span>
+                                            </div>
+                                            <div class="tps-row domestic">
+                                                <span>18.</span>
+                                                <span>
+                                                    <a href="#">D. Malen</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/PSV.png" alt="Awesome Image" />PSV </a>
+                                                </span>
+                                                <span>14</span>
+                                                <span>11</span>
+                                            </div>
+                                            <div class="tps-row domestic">
+                                                <span>19.</span>
+                                                <span>
+                                                    <a href="#">D. Tadić</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/Ajax.png" alt="Awesome Image" />Ajax </a>
+                                                </span>
+                                                <span>25</span>
+                                                <span>11</span>
+                                            </div>
+                                            <div class="tps-row domestic">
+                                                <span>20.</span>
+                                                <span>
+                                                    <a href="#">D. Tadić</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/FC Twente.png" alt="Awesome Image" />FC Twente </a>
+                                                </span>
+                                                <span>25</span>
+                                                <span>11</span>
+                                            </div>
+                                            <!-- Last 10 Row Data -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Responsive Top Collapse -->
+
+                                <!-- Responsive Top Load More Button -->
+                                <div class="loadmore tab-resp text-center">
+                                    <a data-toggle="collapse" href="#collapsetop" role="button" aria-expanded="false" aria-controls="collapsetop">Meer Statistieken</a>
+                                </div>
+                                <!-- Responsive Top Load More Button -->
+                            </div>
+                            <!-- Topscorers Mobile View Top Area -->
+
+                            <!-- Gele/Rode Kaarten Mobile View Bottom Area -->
+                            <div class="statskn port tps col-lg-6 col-md-12">
+                                <!-- Responsive Bottom Collapse -->
+                                <div class="collapse" id="collapseBottom">
+                                    <div class="home-switch-button fix mobile-hide text-center">Gele/Rode Kaarten</div>
+                                    <div class="sdv-wrap pd10">
+                                        <div class="sdv-fx-wrap cardscorers">
+                                            <div class="scorer-head scorer-head-bottom scorer-row cards">
+                                                <span>#</span>
+                                                <span>Naam</span>
+                                                <span>Club</span>
+                                                <span>Geel</span>
+                                                <span>Rood</span>
+                                                <span>PNT</span>
+                                            </div>
+
+                                            <!-- First 10 row Data -->
+                                            <div class="tps-row cards">
+                                                <span>1.</span>
+                                                <span>
+                                                    <a href="#">A. Auassar</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/Sparta Rotterdam.png" alt="Awesome Image" />Sparta Rotterdam </a>
+                                                </span>
+                                                <span>10</span>
+                                                <span>0</span>
+                                                <span>10</span>
+                                            </div>
+                                            <div class="tps-row cards">
+                                                <span>2.</span>
+                                                <span>
+                                                    <a href="#">M. Bero</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/Vitesse.png" alt="Awesome Image" />Vitesse </a>
+                                                </span>
+                                                <span>9</span>
+                                                <span>0</span>
+                                                <span>9</span>
+                                            </div>
+                                            <div class="tps-row cards">
+                                                <span>3.</span>
+                                                <span>
+                                                    <a href="#">N. Viergever</a>
+                                                </span>
+                                                <span>
+                                                    <a href="/team/682/psv/2019-2020"> <img src="assets/images/teamlogo/PSV.png" alt="Awesome Image" />PSV </a>
+                                                </span>
+                                                <span>5</span>
+                                                <span>1</span>
+                                                <span>8</span>
+                                            </div>
+                                            <div class="tps-row cards">
+                                                <span>4.</span>
+                                                <span>
+                                                    <a href="#">D. Post</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/VVV-Venlo.png" alt="Awesome Image" />VVV-Venlo </a>
+                                                </span>
+                                                <span>8</span>
+                                                <span>0</span>
+                                                <span>8</span>
+                                            </div>
+                                            <div class="tps-row cards">
+                                                <span>5.</span>
+                                                <span>
+                                                    <a href="#">G. Hamer</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/PEC Zwolle.png" alt="Awesome Image" />PEC Zwolle </a>
+                                                </span>
+                                                <span>8</span>
+                                                <span>0</span>
+                                                <span>8</span>
+                                            </div>
+                                            <div class="tps-row cards">
+                                                <span>6.</span>
+                                                <span>
+                                                    <a href="#">H. Delcroix</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/RKC Waalwijk.png" alt="Awesome Image" />RKC Waalwijk </a>
+                                                </span>
+                                                <span>5</span>
+                                                <span>1</span>
+                                                <span>8</span>
+                                            </div>
+                                            <div class="tps-row cards">
+                                                <span>7.</span>
+                                                <span>
+                                                    <a href="#">M. te Wierik</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/FC Groningen.png" alt="Awesome Image" />FC Groningen </a>
+                                                </span>
+                                                <span>5</span>
+                                                <span>1</span>
+                                                <span>8</span>
+                                            </div>
+                                            <div class="tps-row cards">
+                                                <span>8.</span>
+                                                <span>
+                                                    <a href="#">L. Selahi</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/FC Twente.png" alt="Awesome Image" />FC Twente </a>
+                                                </span>
+                                                <span>8</span>
+                                                <span>0</span>
+                                                <span>8</span>
+                                            </div>
+                                            <div class="tps-row cards">
+                                                <span>9.</span>
+                                                <span>
+                                                    <a href="#">M. Chacón</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/FC Emmen.png" alt="Awesome Image" />FC Emmen </a>
+                                                </span>
+                                                <span>8</span>
+                                                <span>0</span>
+                                                <span>8</span>
+                                            </div>
+                                            <div class="tps-row cards">
+                                                <span>10.</span>
+                                                <span>
+                                                    <a href="#">D. Malone</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/ADO Den Haag.png" alt="Awesome Image" />ADO Den Haag </a>
+                                                </span>
+                                                <span>7</span>
+                                                <span>0</span>
+                                                <span>7</span>
+                                            </div>
+                                            <!-- First 10 Row Data -->
+
+                                            <!-- Last 10 row Data -->
+                                            <div class="tps-row cards">
+                                                <span>11.</span>
+                                                <span>
+                                                    <a href="#">A. Auassar</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/Sparta Rotterdam.png" alt="Awesome Image" />Sparta Rotterdam </a>
+                                                </span>
+                                                <span>10</span>
+                                                <span>0</span>
+                                                <span>10</span>
+                                            </div>
+                                            <div class="tps-row cards">
+                                                <span>12.</span>
+                                                <span>
+                                                    <a href="#">M. Bero</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/Vitesse.png" alt="Awesome Image" />Vitesse </a>
+                                                </span>
+                                                <span>9</span>
+                                                <span>0</span>
+                                                <span>9</span>
+                                            </div>
+                                            <div class="tps-row cards">
+                                                <span>13.</span>
+                                                <span>
+                                                    <a href="#">N. Viergever</a>
+                                                </span>
+                                                <span>
+                                                    <a href="/team/682/psv/2019-2020"> <img src="assets/images/teamlogo/PSV.png" alt="Awesome Image" />PSV </a>
+                                                </span>
+                                                <span>5</span>
+                                                <span>1</span>
+                                                <span>8</span>
+                                            </div>
+                                            <div class="tps-row cards">
+                                                <span>14.</span>
+                                                <span>
+                                                    <a href="#">D. Post</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/VVV-Venlo.png" alt="Awesome Image" />VVV-Venlo </a>
+                                                </span>
+                                                <span>8</span>
+                                                <span>0</span>
+                                                <span>8</span>
+                                            </div>
+                                            <div class="tps-row cards">
+                                                <span>15.</span>
+                                                <span>
+                                                    <a href="#">G. Hamer</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/PEC Zwolle.png" alt="Awesome Image" />PEC Zwolle </a>
+                                                </span>
+                                                <span>8</span>
+                                                <span>0</span>
+                                                <span>8</span>
+                                            </div>
+                                            <div class="tps-row cards">
+                                                <span>16.</span>
+                                                <span>
+                                                    <a href="#">H. Delcroix</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/RKC Waalwijk.png" alt="Awesome Image" />RKC Waalwijk </a>
+                                                </span>
+                                                <span>5</span>
+                                                <span>1</span>
+                                                <span>8</span>
+                                            </div>
+                                            <div class="tps-row cards">
+                                                <span>17.</span>
+                                                <span>
+                                                    <a href="#">M. te Wierik</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/FC Groningen.png" alt="Awesome Image" />FC Groningen </a>
+                                                </span>
+                                                <span>5</span>
+                                                <span>1</span>
+                                                <span>8</span>
+                                            </div>
+                                            <div class="tps-row cards">
+                                                <span>18.</span>
+                                                <span>
+                                                    <a href="#">L. Selahi</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/FC Twente.png" alt="Awesome Image" />FC Twente </a>
+                                                </span>
+                                                <span>8</span>
+                                                <span>0</span>
+                                                <span>8</span>
+                                            </div>
+                                            <div class="tps-row cards">
+                                                <span>19.</span>
+                                                <span>
+                                                    <a href="#">M. Chacón</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/FC Emmen.png" alt="Awesome Image" />FC Emmen </a>
+                                                </span>
+                                                <span>8</span>
+                                                <span>0</span>
+                                                <span>8</span>
+                                            </div>
+                                            <div class="tps-row cards">
+                                                <span>20.</span>
+                                                <span>
+                                                    <a href="#">D. Malone</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#"> <img src="assets/images/teamlogo/ADO Den Haag.png" alt="Awesome Image" />ADO Den Haag </a>
+                                                </span>
+                                                <span>7</span>
+                                                <span>0</span>
+                                                <span>7</span>
+                                            </div>
+                                            <!-- Last 10 Row Data -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Responsive Bottom Collapse -->
+
+                                <!-- Responsive Bottom Load More Button -->
+                                <div class="loadmore tab-resp text-center">
+                                    <a data-toggle="collapse" href="#collapseBottom" role="button" aria-expanded="false" aria-controls="collapseSpelers">Meer Statistieken</a>
+                                </div>
+                                <!-- Responsive Bottom Load More Button -->
+                            </div>
+                            <!-- Gele/Rode Kaarten Mobile View Bottom Area -->
+                        </div>
+                    </div>
+                    <!-- Collapse Area -->
+
+                    <div class="loadmore statis-desktop-btn text-center">
+                        <a data-toggle="collapse" href="#collapseSpelers" role="button" aria-expanded="false" aria-controls="collapseSpelers">Meer Statistieken</a>
+                    </div>
+                </div>
+            </section>
+            <!-- Spelers Statistieken Area -->
+        </main>
+        <!-- Main Content Area -->
+
+        <!-- Footer Area -->
+        <footer class="site-footer footer-one footer-inner-page">
+            <!-- Upper Footer Area -->
+            <div class="upper-footer">
+                <div class="container">
+                    <div class="social-block">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </div>
+                    <div class="button-block">
+                        <form method="_POST">
+                            <input type="text" name="email" placeholder="Your email address" />
+                            <button class="thm-btn" type="button" value="submit">Subscribe</button>
+                        </form>
+                        <span class="btn-tagline">Looking for Live Match <i class="inston-icon-share"></i></span>
+                    </div>
+                </div>
+            </div>
+            <!-- Upper Footer Area -->
+
+            <!-- Middle Footer Area -->
+            <div class="middle-footer">
+                <div class="container">
+                    <div class="row">
+                        <!-- Footer Logo Area -->
+                        <div class="col-lg-4 col-sm-7">
+                            <div class="footer-widget">
+                                <a href="/" class="footer-logo"><img src="assets/images/resources/logo.png" alt="Awesome Image" /></a>
+                                <p>Op voetbalmoment.nl kan de voetballiefhebber al het laatste voetbalnieuws vinden van verschillende gerenommeerde bronnen. De redactie van voetbalmoment.nl heeft de bronnen met <a href="over-voetbalmoment-nl.php">Lees Meer...</a></p>
+                            </div>
+                        </div>
+                        <!-- Footer Logo Area -->
+
+                        <!-- Footer Quick Links Area -->
+                        <div class="col-lg-2 col-sm-4 offset-md-1 offset-sm-1 offset-lg-0">
+                            <div class="footer-widget legal-widget">
+                                <div class="widget-title">
+                                    <h3>Quick Links</h3>
+                                </div>
+                                <ul class="links-list">
+                                    <li><a href="over-voetbalmoment-nl.php">About</a></li>
+                                    <li><a href="contactus.php">Contact</a></li>
+                                    <li><a href="#">What We Do</a></li>
+                                    <li><a href="#">Plans &amp; Pricing</a></li>
+                                    <li><a href="#">How They Works</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Footer Quick Links Area -->
+
+                        <!-- Footer Football Area -->
+                        <div class="col-lg-2 col-sm-4">
+                            <div class="footer-widget legal-widget">
+                                <div class="widget-title">
+                                    <h3>Football</h3>
+                                </div>
+                                <ul class="links-list">
+                                    <li><a href="#">Join us</a></li>
+                                    <li><a href="disclaimer.php">Disclaimer</a></li>
+                                    <li><a href="cookies.php">Cookies</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Terms of Use</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Footer Football Area -->
+
+                        <!-- Footer International Area -->
+                        <div class="col-lg-2 col-sm-4">
+                            <div class="footer-widget legal-widget">
+                                <div class="widget-title">
+                                    <h3>International</h3>
+                                </div>
+                                <ul class="links-list">
+                                    <li><a href="#">Join us</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">News</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Terms of Use</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Footer International Area -->
+
+                        <!-- Footer Help Area -->
+                        <div class="col-lg-2 col-sm-4">
+                            <div class="footer-widget legal-widget">
+                                <div class="widget-title">
+                                    <h3>Help</h3>
+                                </div>
+                                <ul class="links-list">
+                                    <li><a href="#">Join us</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">News</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Terms of Use</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Footer Help Area -->
+                    </div>
+                </div>
+            </div>
+            <!-- Middle Footer Area -->
+
+            <!-- Bottom Footer Area -->
+            <div class="bottom-footer text-center">
+                <div class="container">
+                    <p>© Copyright 2018-2020 by <a href="#">voetbalmoment.nl</a></p>
+                </div>
+            </div>
+            <!-- Bottom Footer Area -->
+        </footer>
+        <!-- Footer Area -->
+
+        <!-- Back Top Area -->
+        <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+        <!-- Back Top Area -->
+
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/swiper.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/jquery.validate.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/theme.js"></script>
+    </body>
+</html>
+<!--End Here footer Area-->
